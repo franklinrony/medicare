@@ -1,0 +1,12 @@
+
+<h5>Buscar:</h5>
+<form (ngSubmit)="buscar()" autocomplete="off">
+<input
+type="text"
+name="filtro"
+class="form-control"
+[(ngModel)]="filtro"
+placeholder="Buscar ..."
+#txtBuscar
+>
+</form>
